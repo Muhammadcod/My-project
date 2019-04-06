@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+        <a id="home" href="#home"></a>
+        <div class="landing-page">
+            <div class="wrapper-flex">
+                <div class="headline">
+                    <h1>Front-End Developer</h1>
+                </div>
+                <div class="button"><a href="#about">Take a Peak <i class="fas fa-arrow-down"></i></a></div>
+                </div>
+            </div>
+        <div>
+            <nav id="navbar">
+                <ul>
+                    <li><a class="active" href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                </ul>
+            </nav>
+        </div>
+    
+        <a id="about" href="#about"></a>
+        <section>
+            <div class="article">
+                <div class="flex-item">
+                    <div class="text">Mohammed<br>Adebayo</div>
+                </div>
+                <div class="flex-item">
+                    <p>Hi, i am a Front-End Web Developer based in Nigeria.
+                       passionnate about simple aesthetic design, animations and creating intuitive, dynamic user experiences for small establishments.
+                       Let's make something special.
+                    </p>
+                </div>
+            </div>
+            <div class="article">
+                <h1></h1>
+                <p> Started out as a chemist 
+                    I moved to Austin in 2003 with no job and started a web design firm. I met my lovely wife one year later and we’ve grown our businesses and lives together in ATX. We now live in the area of “Dirty Six” in downtown. I've become a BBQ and taco snob.
+                    I first travelled to Cali in 2010 for a Joomla convention. A year and half later I was hired by eBay to head up the UX for a massive analytics portal. After that I moved on to a Sears analytics team also in CA. Something tells me I’ll be back.
+                 </p>
+                <div class="media">
+                    <ul>
+                        <li><i class="fab fa-instagram" aria-hidden="true"><a href="http://instagram.com/code_prodigy_"></a></i></li>
+                        <li><i class="fab fa-facebook" ></i></li>
+                        <li><i class="fab fa-github"></i><a href="https://github.com/Muhammadcod/portfolio"></a></li>
+                        <li><i class="fab fa-twitter"></i></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        
+        <a id="portfolio" href="#portfolio"></a>
+        <div class="portfolio">
+            <div class="head">
+                <h2>Portfolio</h2>
+            </div>
+            <div class="container">
+                <div class="card">
+                    <img class="img-top" src="img_avatar1.png" alt="Card image">
+                    <div class="card-body">
+                        <h4 class="card-title">John Doe</h4>
+                        <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+                        <a href="#" class="btn btn-primary">See Profile</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="img-top" src="img_avatar1.png" alt="Card image">
+                    <div class="card-body">
+                        <h4 class="card-title">John Doe</h4>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="img-top" src="" alt="Card image">
+                    <div class="card-body">
+                        <h4 class="card-title">John Doe</h4>
+                        <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+                        <a href="#" class="btn btn-primary">See Profile</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    
+        <script>
+        window.onscroll = function() {myFunction()};
+        var navbar = document.getElementById("navbar");
+        var sticky = navbar.offsetTop;
+        
+        function myFunction() {
+            if (window.pageYOffset >= sticky) {
+                navbar.classList.add("sticky")
+                } else {
+                    navbar.classList.remove("sticky");
+                    }
+                    }
+                    
+                    </script>
+</body>
+</html>
