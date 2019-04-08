@@ -2,12 +2,15 @@
 
 body{
     margin: 0;
+    padding: 0;
     overflow-x: hidden;
-    background: snow;
+    
 }
 .landing-page{
     width: 100%;
     height: 100vh;
+    border-top: 1px solid #3DB5C4;
+    background: #3DB5C4;
 }
 
 .wrapper{
@@ -27,14 +30,18 @@ body{
     text-align: start;
     font-size: 42.6667px;
     line-height: 48px;
-    color: #000000;
+    color: #004A94;
     font-family: brandon-grotesque, sans-serif;
     font-style: normal;
     font-weight: 100;
     line-height: 1.5em;
 }
+.headline p{
+    font-size: 35px;
+}
 #logo{
     margin: 35px 0 0 25px;
+    color: #053D57;
 }
 span{
     display: block;
@@ -59,9 +66,10 @@ span{
 }
 .button a{
     text-decoration: none;
+    color: #C9E4EB;
 }
-.button:hover{
-    background: #8c8375;
+.button a:hover{
+    color:#004A94;
 }
 nav{
     width: 100%;
@@ -93,15 +101,30 @@ nav{
 /**portfolio section**/
 .head{
     margin-top: 100px;
+    background: #C9E4EB;
+    height: 300px;
+    padding-top: 60px;
+    font-size: 30px;
+    text-align: center; 
 }
 .container-flex{
     display: flex;
+    border: 1px solid red;
+    height: 500px;
+    
 }
 
 .contain{
     position: relative;
     width: 50%;
     margin: 10px;
+    border: 1px solid red;
+    text-align: center;
+    height: 200px;
+
+}
+.two{
+    align-items: baseline;
 }
 .image{
     display: block;
@@ -140,6 +163,9 @@ section{
     width: 100%;
     min-height: 100vh;
 }
+#about-page{
+    background: #053D57;
+}
 .container{
     width: 90%;
     min-height: 100vh;
@@ -160,6 +186,7 @@ section{
 .grid-item{
     flex: 1 200px;
     font-size: 18px;
+    color: #97BCC7;
 }
 #socials{
     list-style-type: none;
@@ -192,4 +219,10 @@ list li a{
 .title-text{
     font-family: 'Open Sans Condensed', sans-serif;
     letter-spacing: 0px;
+}
+.head-2{
+    height: 300px;
+    padding-top: 60px;
+    font-size: 30px;
+    text-align: center;
 }
