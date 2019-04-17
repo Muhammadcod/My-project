@@ -4,7 +4,7 @@ body{
     margin: 0;
     padding: 0;
     overflow-x: hidden;
-    
+    background: #97BCC7;
 }
 .landing-page{
     width: 100%;
@@ -71,15 +71,26 @@ span{
 .button a:hover{
     color:#004A94;
 }
+@media screen and (max-width: 699px) and (min-width: 500px){
+    .headline{
+        margin: 0 0 30px 0;
+        font-size: 30px;
+        line-height: 48px;
+        font-style: normal;
+        font-weight: 100;
+        line-height: 1.5em;
+    }
+
+}
 nav{
     width: 100%;
 }
 .navwrap{
     width: 80%;
-    border-bottom: 1px solid grey;
     margin: 0 auto;
     display: flex;
     justify-content: space-around;
+    
 }
 #list{
     list-style-type: none;
@@ -90,27 +101,29 @@ nav{
 }
 #list li a{
     text-decoration: none;
+    color: #000000;
 }
 .brand{
     margin-top: 25px;
 }
 .brand a{
     text-decoration: none;
+    color: #000000;
 }
 
 /**portfolio section**/
 .head{
     margin-top: 100px;
-    background: #C9E4EB;
-    height: 300px;
+    background: #053D57;
+    height: 100px;
     padding-top: 60px;
     font-size: 30px;
     text-align: center; 
 }
 .container-flex{
     display: flex;
-    border: 1px solid red;
     height: 500px;
+    margin-top: 40px;
     
 }
 
@@ -118,7 +131,6 @@ nav{
     position: relative;
     width: 50%;
     margin: 10px;
-    border: 1px solid red;
     text-align: center;
     height: 200px;
 
@@ -181,6 +193,7 @@ section{
     margin: 50px auto 0 auto;
     display: flex;
     flex-direction: row;
+    border: 1px solid red;
 
 }
 .grid-item{
@@ -188,29 +201,7 @@ section{
     font-size: 18px;
     color: #97BCC7;
 }
-#socials{
-    list-style-type: none;
-    text-align: center;
-}
-#socials li{
-    display: inline-block;
-    margin: 10px 30px;
-    font-size: 20px;
-    padding: 20px 20px;
-    color: #38FBA1;
-    border: 1px solid #38FBA1;
-    border-radius: 50%;
-    transition: .5s;
-    
-}
-#socials li:hover{
-    color: #292929;
-    border: 1px solid #292929;
-    transition: .5s;
-}
-list li a{
-    text-decoration: none;
-}
+
 .sticky {
     position: fixed;
     top: 0;
@@ -221,8 +212,25 @@ list li a{
     letter-spacing: 0px;
 }
 .head-2{
-    height: 300px;
+    height: 100px;
     padding-top: 60px;
     font-size: 30px;
     text-align: center;
 }
+#socials{
+    border: 1px solid red;
+    text-align: center;
+}
+#socials a{
+    color: black;
+    font-size: 30px;
+    border: 1px solid red;
+    margin: 0 40px 0 40px;
+    transition: 0.6s;
+}
+#socials a:hover{
+    zoom: 1;
+    color: aqua;
+
+}
+ 
