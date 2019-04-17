@@ -193,8 +193,6 @@ section{
     margin: 50px auto 0 auto;
     display: flex;
     flex-direction: row;
-    border: 1px solid red;
-
 }
 .grid-item{
     flex: 1 200px;
@@ -218,13 +216,11 @@ section{
     text-align: center;
 }
 #socials{
-    border: 1px solid red;
     text-align: center;
 }
 #socials a{
     color: black;
     font-size: 30px;
-    border: 1px solid red;
     margin: 0 40px 0 40px;
     transition: 0.6s;
 }
