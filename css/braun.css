@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+body {
+    margin: 0;
+    padding: 0;
+    background: #444343;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+
+/* fixed navigation */
+.section-hero{
+    width: 100%;
+    height: 90vh;
+    border: 2px solid white;
+
+}
+header{
+    height: 80px;
+    border: 2px solid red;
+    background: #444343;   
+}
+.brand{
+    color: #F5F5F5;
+    font-size: 18px;
+    margin-left: 6em;
+    line-height: 100px;
+    border: 2px solid red;
+}
+.menu{
+    float: right;
+    line-height: 60px;
+    margin-right: 6em;
+    border: 2px solid red;
+}
+.content{
+    position: absolute;
+    left: 250px;
+    top: 150px;
+}
+.upper-landing__slideshow{
+    position: absolute;
+    right: 100px;
+    top: 200px;
+    border: 2px solid red;
+}
+.content p {
+    line-height: 24px;
+}
+.media{
+    position: absolute;
+    top: 380px;
+    left: 80px; 
+    text-align: center;
+}
+.media p{    
+    display: block;
+    text-align: center;
+    text-orientation: sideways-right;
+    transform: rotate(-90deg) translateX(120px);
+}
+
+/* overview */
+
+
