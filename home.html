@@ -5,212 +5,243 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Mbashir</title>
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    <link rel="stylesheet" href="css/fontawesome.min.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link
+		href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700|Raleway:300,300i,400,400i,500,500i,700,700i&display=swap"
+		rel="stylesheet" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
-    <link rel="stylesheet" href="css/Style.css">
+	<link rel="stylesheet" href="css/Style.css">
+	<script src="https://kit.fontawesome.com/569584a791.js" crossorigin="anonymous"></script>
 </head>
 <body>
 	
-	<div class="landing-page">
-        <div class="nav">
-			<a href="" class="logo">M BASHIR</a>
-			<input type="checkbox" id="chk">
-			<label for="chk" class="show-menu-btn">
-				<span id="open" class="open" onclick="openNav()">&#9776;</span>
-			</label>
-			<ul class="menu">
-                <a class="active" href="#home">Home</a>
-				<a href="#about">About</a>
-				<a href="#portfolio">Portfolio</a>
-				<a href="#contact">Contact</a>
-				<label for="chk" class="hide-menu-btn">
-					<span id="close" class="close" onclick="openNav()">&times;</span>
-				</label>
-			</ul>
-		</div>
+	<section id="home">
+		<div class="landing-page container nav-padding">
+			<nav class="navbar navbar-expand-lg navbar-light">
+					<a class="navbar-brand text-white" href="#home">M BASHIR</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+					aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
 		
-		<div class="headline">
-			<h1>Muhammad bashir</h1>
-            <p>Web Designer, Frontend Developer</p>    
-            <button class="btn"><a href="#portfolio">Hire Me<br></a></button>
+				<div class="collapse navbar-collapse justify-content-end" id="navbarTogglerDemo02">
+					<ul class="navbar-nav text-white">
+						<li class="nav-item active">
+							<a class="nav-link text-white" href="#home">
+								Home <span class="sr-only">(current)</span>
+							</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link text-white" href="#skill">
+								Skill
+							</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link text-white" href="#portfolio">
+								Work
+							</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link text-white" href="#contact-page">
+								Contact
+							</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+		
+		
+			<div class="headline flex-column container">
+				<h1 class="">Hi I'm</h1>
+				<h1>Muhammad</h1>
+				<p>A Frontend Developer</p>
+				<a  class="btn btn-primary" download href="./Adebayo Mohammed CV.docx">DOWNLOAD RESUME</a>
+		
+		
+				<ul class="media nav">
+					<li>
+						<a class=" fab fa-github" href="https://github.com/Muhammadcod"></a>
+					</li>
+					<li>
+						<a class=" fab fa-instagram" href="http://instagram.com/code_prodigy_"></a>
+					</li>
+					<li>
+						<a class=" fab fa-linkedin" href=""></a>
+					</li>
+		
+				</ul>
+			</div>
 		</div>
-
-        <div class="media">
-			<ul>
-				<li><i class="iconbtn fab fa-github"><a  href="https://github.com/Muhammadcod/portfolio"></a></i></li>
-				<li><a class="iconbtn fab fa-instagram" href="http://instagram.com/code_prodigy_"></a></li>
-				<li><a class="iconbtn fab fa-linkedin" href=""></a></li>
-				
-			</ul>
-        </div>
-			
-    </div>
+	</section>
 
         
-        <!-- Start Work Area Area -->
-	<!-- Portfolio Masonry 3 Columns-->
-	<section class="section-wrap">
-		<div class="container-fluid nopadding">
-
-			<!-- filter -->
-			<div class="row"> 
-				<div class="col">
-					<div class="portfolio-filter">
-						<div class="works">
-							<h2>My Works</h2>
+    <!-- Start Skill Area -->
+	<section class="" id="skill">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6">
+					<h5>Skillset</h5>
+					<div class="progress-item">
+						<div class="progress-title">HTML / CSS3 / SASS</div>
+						<div class="progress">
+							<div class="progress-bar progress-bar-brand" aria-valuenow="60" role="progressbar" aria-valuemin="0"
+								aria-valuemax="100" style="width: 80%;">
+								<span class="pb-number-box" style="opacity: 1;">
+									<span class="pb-number">80</span>%</span></div>
+						</div>
+					</div>
+					<div class="progress-item">
+						<div class="progress-title">JavaScript</div>
+						<div class="progress">
+							<div class="progress-bar progress-bar-brand" aria-valuenow="80" role="progressbar" aria-valuemin="0"
+								aria-valuemax="100" style="width: 50%;"><span class="pb-number-box" style="opacity: 1;"><span
+										class="pb-number">50</span>%</span></div>
+						</div>
+					</div>
+					<div class="progress-item">
+						<div class="progress-title">Bootstrap</div>
+						<div class="progress">
+							<div class="progress-bar progress-bar-brand" aria-valuenow="50" role="progressbar" aria-valuemin="0"
+								aria-valuemax="100" style="width: 80%;"><span class="pb-number-box" style="opacity: 1;"><span
+										class="pb-number">80</span>%</span></div>
+						</div>
+					</div>
+					<div class="progress-item">
+						<div class="progress-title">REACT</div>
+						<div class="progress">
+							<div class="progress-bar progress-bar-brand" aria-valuenow="60" role="progressbar" aria-valuemin="0"
+								aria-valuemax="100" style="width: 60%;"><span class="pb-number-box" style="opacity: 1;"><span
+										class="pb-number">70</span>%</span>
+							</div>
 						</div>
 					</div>
 				</div>
-			</div> <!-- end heading -->
-
-
-			<div id="portfolio-container" class="works-grid masonry ">
-
-				<div class="work-item masonry-item web-design one">
-					<div class="work-container">
-						<div class="work-img">
-							<img src="works/Screenshot (49).png" alt="" height="440px">
-							<div class="work-overlay">
-								
-							</div>
-							<div class="work-description">
-								<h2><a href="#">M BASHIR</a></h2>
-								<span><a href="#">Web Design</a></span>
+				<div class="col-md-6">
+					<div class="row">
+						<div class="col-md-12">
+							<div class="m-title">
+								<h2>Muhammad Bashir</h2>
+								<p>Front-end Developer</p>
 							</div>
 						</div>
-					</div> 
-				</div> <!-- end work-item -->
+					</div>
+					<h5>Professional Profile</h5>
+					<p class="intro-text">Muhammad bashir is a Front-End Web Developer based in Nigeria. He loves designing & coding simple aesthetic designs, playing football, traveling, and watching movies. Presently, he works as a freelance web developer. He has a BSc in Chemistry from the University of Ilorin, a PGD and Masters Degree in Chemical and Polymer Engineering at Lagos State University. For more info, check out his portfolio.</p>
+					
+					<p class="intro-text">
+						I have a diverse set of skills i employ in coding pixel perfect design by writing simple and well structured HTML combined with reasonable and efficient CSS with it various transpilers. i am also well versed with JavaScript library ( React ), which i use in building complex UI's.
+					</p>
+					
 
-				<div class="work-item masonry-item branding two">
-					<div class="work-container">
-						<div class="work-img">
-							<img src="img/portfolio/2.jpg" alt="">
-							<div class="work-overlay">
-								
-							</div>
-							<div class="work-description">
-								<h2><a href="#">Vimeo Video</a></h2>
-								<span><a href="#">Web Design</a></span>
+					<div class="row">
+						
+					</div>
+					
+				</div>
+			</div>		
+		</div>	
+	</section>
+
+	
+	<section class="" id="portfolio">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="m-title">
+						<h2>Works</h2>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-6">
+					<div class="work-item masonry-item web-design one">
+						<div class="work-container">
+							<div class="work-img">
+								<img src="works/Screenshot (49).png" alt="" height="440px">
+								<div class="work-overlay">
+					
+								</div>
+								<div class="work-description text-center">
+									<h2><a href="#" class="text-decoration-none text-dark">M BASHIR</a></h2>
+								</div>
 							</div>
 						</div>
-					</div> 
-				</div> <!-- end work-item -->
-
-				<div class="work-item masonry-item web-design three">
-					<div class="work-container">
-						<div class="work-img">
-							<img src="img/portfolio/masonry/3_long.jpg" alt="">
-							<div class="work-overlay">
-								
-							</div>
-							<div class="work-description">
-								<h2><a href="#">Youtube Video</a></h2>
-								<span><a href="#">Photography</a></span>
-							</div>
-						</div>
-					</div> 
-				</div> <!-- end work-item -->
-
-				<div class="work-item masonry-item web-design four">
-					<div class="work-container">
-						<div class="work-img">
-							<img src="img/portfolio/4.jpg" alt="">
-							<div class="work-overlay">
-								
-							</div>
-							<div class="work-description">
-								<h2><a href="#">Super Minimal</a></h2>
-								<span><a href="#">Branding</a></span>
-							</div>
-						</div>
-					</div> 
-				</div> <!-- end work-item -->
-
-				<div class="work-item masonry-item five">
-					<div class="work-container">
-						<div class="work-img">
-							<img src="img/portfolio/masonry/8_long.jpg" alt="">
-							<div class="work-overlay">
-								
-							</div>
-							<div class="work-description">
-								<h2><a href="#">Blonde in Garden</a></h2>
-								<span><a href="#">Photography</a></span>
-							</div>
-						</div>
-					</div> 
-				</div> <!-- end work-item -->
-
-				<div class="work-item masonry-item branding six">
-					<div class="work-container">
-						<div class="work-img">
-							<img src="img/portfolio/masonry/5_long.jpg" alt="">
-							<div class="work-overlay">
-								
-							</div>
-							<div class="work-description">
-								<h2><a href="#">Design Studio</a></h2>
-								<span><a href="#">Branding</a></span>
-							</div>
-						</div>
-					</div> 
-				</div> <!-- end work-item -->
-
-			</div>	<!-- end portfolio container -->
+					</div>
+				</div>
+				<div class="col-md-6">
+					
+				</div>
+			</div>
+			<div class="row">
+				
+			</div>
 		</div>
-	</section> <!-- end portfolio-->
+	</section>
 
 
     <section id="contact-page">
 		<div class="container">
-			<div class="footer-widgets">
-				<div class="row">
-
-					<div class="col-md-3">
-						<div class="widget footer-about-us">
-							<h2>Who Am I</h2>
-							<p>Muhammad bashir is a Front-End Web Developer based in Nigeria. He loves designing & coding simple aesthetic designs, playing football, traveling, and watching movies. Presently, he works as a freelance web developer. He has a BSc in Chemistry from the University of Ilorin, a PGD and Masters Degree in Chemical and Polymer Engineering at Lagos State University. For more info, check out his porfolio. </p>
-						</div>
-					</div> <!-- end about us -->
-
-					<div class="col-md">
-						<div class="widget get-in-touch">
-							<h2>Get in Touch</h2>
-							<p class="contact-address">Philippines, Afela inc.<br> Talay st. 65, PO Box 6200 </p>
-							<p>Phone: +2347066519011</p>
-							<p>Email: <a href="mailto:adebayomuhammad47@gmail.com">adebayomuhammad47@gmail.com</a></p>
-								
-						</div>
-					</div> <!-- end stay in touch -->
+			<form>
+				<div class="form-row">
+					<div class="form-group col-md-4">
+						<label for="inputName">Name</label>
+						<input type="name" class="form-control" id="inputName">
+					</div>
+					<div class="form-group col-md-4">
+						<label for="inputEmail4">Email</label>
+						<input type="email" class="form-control" id="inputEmail4">
+					</div>
+					<div class="form-group col-md-4">
+						<label for="inputPhoneNo">Phone</label>
+						<input type="phone" class="form-control" id="inputPhoneNo">
+					</div>
 				</div>
-			</section>
+				<div class="form-group">
+					<label for="inputMessage">Message</label>
+					<input type="text" class="form-control" id="inputMessage">
+				</div>
+			</form>
 			
-			<footer>
-				<div class="row">
-					
-					<div class="copyright">
-						<span>
-							Copyright ©2019 All rights reserved | Site designed by Muhammad Bashir.
-						</span>
-					</div>
-					
-					<div class="footer-socials">
-						<div class="social-icons text-right">
-							<a href="#"><i class="fa fa-twitter"></i></a>
-							<a href="#"><i class="fa fa-facebook"></i></a>									
-							<a href="https://github.com/Muhammadcod/portfolio"><i class="fa fa-google-plus"></i></a>
-							<a href="#"><i class="fa fa-linkedin"></i></a>
-							<a href="#"><i class="fa fa-vimeo"></i></a>
-							<a href="http://instagram.com/code_prodigy_"><i class="fa fa-instagram"></i></a>
-						</div>
-					</div>
-				</div>
-			</footer>
+		</div>
+	</section>
+			
+	<footer id="">
+		<div class="container text-center flex-column">
+			<div>
+				Copyright ©2019 All rights reserved | Site designed by Muhammad Bashir.
+			</div>
+			
+			
+			<ul class="media nav justify-content-center">
+				<li>
+					<a class=" fab fa-github" href="https://github.com/Muhammadcod/portfolio"></a>
+				</li>
+				<li>
+					<a class=" fab fa-instagram" href="http://instagram.com/code_prodigy_"></a>
+				</li>
+				<li>
+					<a class=" fab fa-linkedin" href=""></a>
+				</li>
+			</ul>
+		</div>
+	</footer>
 	
-		
-		<script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+			integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+			crossorigin="anonymous"></script>
+		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+			integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+			crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+			integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+			crossorigin="anonymous">
+		</script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+			integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+			crossorigin="anonymous">
+		</script>
 
+		<script>
             TweenMax.from(".logo", 2, {
             delay: 1.6,
             y: 20,
