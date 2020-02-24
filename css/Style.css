@@ -148,3 +148,11 @@ footer {
 .progress-item {
   margin-bottom: 15px;
 }
+.space {
+  margin-bottom: 60px;
+}
+body {
+  border: 2px black solid;
+  color: black;
+  background-image: url('./works/lava.png)';
+}
