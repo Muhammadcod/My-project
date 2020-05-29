@@ -107,6 +107,9 @@ footer {
 .work-item .work-description > span > a:hover {
   color: #2cb8a5;
 }
+.work-item .work-description h2 a:hover {
+  color: #2cb8a5;
+}
 .work-img {
   position: relative;
   overflow: hidden;
